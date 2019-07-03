@@ -61,15 +61,6 @@ No authorization required
  - **Content-Type**: application/json
  - **Accept**: application/json
 
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-**200** | Provides a list of frameworks, including competencies, occupation and industries, that the user may choose from (one or more). |  -  |
-**422** | Validation error. |  -  |
-**400** | Bad Request error |  -  |
-**415** | Unsupported media type |  -  |
-**503** | Service unavailable |  -  |
-
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **framework_selections_post**
@@ -116,15 +107,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-**200** | Stored the context object associated with &#x60;pipelineID&#x60; |  -  |
-**422** | Validation error. |  -  |
-**400** | Bad Request error |  -  |
-**415** | Unsupported media type |  -  |
-**503** | Service unavailable |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -173,15 +155,6 @@ No authorization required
  - **Content-Type**: application/json
  - **Accept**: application/json
 
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-**200** | Provides a list of recommendations and scores (&#x60;scoredRecommendations&#x60;) for each &#x60;uuid&#x60; in the match table. |  -  |
-**422** | Validation error. |  -  |
-**400** | Bad Request error |  -  |
-**415** | Unsupported media type |  -  |
-**503** | Service unavailable |  -  |
-
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **health_get**
@@ -226,11 +199,6 @@ No authorization required
 
  - **Content-Type**: Not defined
  - **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-**200** | The API is up! |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -279,15 +247,6 @@ No authorization required
  - **Content-Type**: application/json
  - **Accept**: application/json
 
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-**200** | Provides a match table with &#x60;uuid&#x60; references along with a json-ld object. The json-ld object contains &#x60;uuid&#x60;&#39;s that reference into the match table, for instance, containing a list of possble competencies that the user should be asked to choose among, reject or approve one of. |  -  |
-**422** | Validation error. |  -  |
-**400** | Bad Request error |  -  |
-**415** | Unsupported media type |  -  |
-**503** | Service unavailable |  -  |
-
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **preview_post**
@@ -334,15 +293,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-**200** | Provides a chunked job description with matches that refer to the given paragraph chunks. |  -  |
-**422** | Validation error. |  -  |
-**400** | Bad Request error |  -  |
-**415** | Unsupported media type |  -  |
-**503** | Service unavailable |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -391,15 +341,6 @@ No authorization required
  - **Content-Type**: application/json
  - **Accept**: application/json
 
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-**200** | The frameworkRecommendation response object |  -  |
-**422** | Validation error. |  -  |
-**400** | Bad Request error |  -  |
-**415** | Unsupported media type |  -  |
-**503** | Service unavailable |  -  |
-
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **upload_job_description_context_post**
@@ -446,16 +387,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-**200** | Stored the context object associated with &#x60;pipelineID&#x60; |  -  |
-**400** | Bad Request |  -  |
-**404** | Pipeline was not found |  -  |
-**422** | Validation error |  -  |
-**500** | Internal server error |  -  |
-**503** | Service is down |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
@@ -504,14 +435,6 @@ No authorization required
  - **Content-Type**: multipart/form-data
  - **Accept**: application/json
 
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-**200** | Created. A pipeline was created and the provided job description was converted to text and attached to the pipeline. |  -  |
-**400** | Bad Request |  -  |
-**422** | Validation error |  -  |
-**500** | Internal server error |  -  |
-
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **user_actions_post**
@@ -558,15 +481,6 @@ No authorization required
 
  - **Content-Type**: application/json
  - **Accept**: application/json
-
-### HTTP response details
-| Status code | Description | Response headers |
-|-------------|-------------|------------------|
-**200** | The user actions response object |  -  |
-**422** | Validation error. |  -  |
-**400** | Bad Request error |  -  |
-**415** | Unsupported media type |  -  |
-**503** | Service unavailable |  -  |
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 

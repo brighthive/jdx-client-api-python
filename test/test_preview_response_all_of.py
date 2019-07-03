@@ -16,12 +16,12 @@ from __future__ import absolute_import
 import unittest
 
 import openapi_client
-from openapi_client.models.framework_recommendation_response import FrameworkRecommendationResponse  # noqa: E501
+from openapi_client.models.preview_response_all_of import PreviewResponseAllOf  # noqa: E501
 from openapi_client.rest import ApiException
 
 
-class TestFrameworkRecommendationResponse(unittest.TestCase):
-    """FrameworkRecommendationResponse unit test stubs"""
+class TestPreviewResponseAllOf(unittest.TestCase):
+    """PreviewResponseAllOf unit test stubs"""
 
     def setUp(self):
         pass
@@ -29,10 +29,10 @@ class TestFrameworkRecommendationResponse(unittest.TestCase):
     def tearDown(self):
         pass
 
-    def testFrameworkRecommendationResponse(self):
-        """Test FrameworkRecommendationResponse"""
+    def testPreviewResponseAllOf(self):
+        """Test PreviewResponseAllOf"""
         # FIXME: construct object with mandatory attributes with example values
-        # model = openapi_client.models.framework_recommendation_response.FrameworkRecommendationResponse()  # noqa: E501
+        # model = openapi_client.models.preview_response_all_of.PreviewResponseAllOf()  # noqa: E501
         pass
 
 
