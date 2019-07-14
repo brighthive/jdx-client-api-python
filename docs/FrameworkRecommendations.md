@@ -1,9 +1,11 @@
-# FrameworkRecommendationResponseAllOf
+# FrameworkRecommendations
 
 ## Properties
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**framework_recommendations** | [**list[FrameworkRecommendations]**](FrameworkRecommendations.md) |  | [optional] 
+**value** | **float** | numeric score, higher is better | [optional] 
+**valid_until** | **datetime** | A timestamp of the time up until this is valid | [optional] 
+**framework_data** | [**FrameworkData**](FrameworkData.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
